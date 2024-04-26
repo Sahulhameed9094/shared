@@ -1,0 +1,1306 @@
+2024-03-27 14:07:07.173 +05:30 [INF] Loaded ABP modules:
+2024-03-27 14:07:07.183 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-03-27 14:07:07.184 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-03-27 14:07:07.184 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-03-27 14:07:07.184 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-03-27 14:07:07.184 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-03-27 14:07:07.184 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-03-27 14:07:07.184 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-03-27 14:07:07.184 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-03-27 14:07:07.184 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-03-27 14:07:07.185 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-03-27 14:07:07.185 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-03-27 14:07:07.185 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-03-27 14:07:07.185 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-03-27 14:07:07.185 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-03-27 14:07:07.185 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-03-27 14:07:07.185 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-03-27 14:07:07.185 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-03-27 14:07:07.536 +05:30 [INF] Initialized all ABP modules.
+2024-03-27 14:07:07.637 +05:30 [INF] Migrating Host side...
+2024-03-27 14:07:07.649 +05:30 [INF] Migrating SaasService database...
+2024-03-27 14:07:13.371 +05:30 [INF] Migrating AdministrationService database...
+2024-03-27 14:07:16.252 +05:30 [INF] Migrating IdentityService database...
+2024-03-27 14:07:18.814 +05:30 [INF] Migrating ProductService database...
+2024-03-27 14:07:21.944 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-03-27 14:07:26.504 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.504 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.504 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.505 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.505 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.505 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.505 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-03-27 14:07:26.629 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-03-27 14:07:26.651 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-03-27 14:07:26.657 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-03-27 14:07:26.672 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-03-27 14:07:26.685 +05:30 [INF] === http://localhost:4200 ===
+2024-03-27 14:07:26.879 +05:30 [INF] Migrating tenants...
+2024-03-27 14:07:26.945 +05:30 [INF] Migration completed!
+2024-03-27 20:24:48.920 +05:30 [INF] Loaded ABP modules:
+2024-03-27 20:24:48.928 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-03-27 20:24:48.928 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-03-27 20:24:48.928 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-03-27 20:24:48.928 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-03-27 20:24:48.928 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-03-27 20:24:48.928 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-03-27 20:24:48.928 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-03-27 20:24:48.928 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-03-27 20:24:48.928 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-03-27 20:24:48.929 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-03-27 20:24:48.929 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-03-27 20:24:48.929 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-03-27 20:24:48.929 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-03-27 20:24:49.189 +05:30 [INF] Initialized all ABP modules.
+2024-03-27 20:24:49.282 +05:30 [INF] Migrating Host side...
+2024-03-27 20:24:49.299 +05:30 [INF] Migrating SaasService database...
+2024-03-27 20:24:52.193 +05:30 [INF] Migrating AdministrationService database...
+2024-03-27 20:24:54.026 +05:30 [INF] Migrating IdentityService database...
+2024-03-27 20:24:55.973 +05:30 [INF] Migrating ProductService database...
+2024-03-27 20:24:57.505 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-03-27 20:24:58.775 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = DateTime), @p6='?', @p7='?' (DbType = Int32), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?' (DbType = Guid), @p12='?' (DbType = DateTime), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime), @p15='?', @p16='?', @p17='?', @p18='?', @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?', @p23='?' (DbType = Guid), @p24='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AbpUsers" ("Id", "ConcurrencyStamp", "CreationTime", "CreatorId", "DeleterId", "DeletionTime", "Email", "EntityVersion", "ExtraProperties", "IsActive", "LastModificationTime", "LastModifierId", "LastPasswordChangeTime", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "SecurityStamp", "ShouldChangePasswordOnNextLogin", "Surname", "TenantId", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24)
+RETURNING "AccessFailedCount", "EmailConfirmed", "IsDeleted", "IsExternal", "PhoneNumberConfirmed", "TwoFactorEnabled";
+2024-03-27 20:24:58.801 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Local to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Local to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-03-27 22:02:39.973 +05:30 [INF] Loaded ABP modules:
+2024-03-27 22:02:39.980 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-03-27 22:02:39.980 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-03-27 22:02:39.980 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-03-27 22:02:39.980 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-03-27 22:02:39.980 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-03-27 22:02:39.980 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-03-27 22:02:39.980 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-03-27 22:02:39.980 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-03-27 22:02:39.980 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-03-27 22:02:39.980 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-03-27 22:02:39.980 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-03-27 22:02:39.980 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-03-27 22:02:39.980 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-03-27 22:02:39.980 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-03-27 22:02:39.980 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-03-27 22:02:39.980 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-03-27 22:02:39.980 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-03-27 22:02:39.980 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-03-27 22:02:39.980 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-03-27 22:02:39.980 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-03-27 22:02:39.981 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-03-27 22:02:39.981 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-03-27 22:02:39.981 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-03-27 22:02:39.981 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-03-27 22:02:40.211 +05:30 [INF] Initialized all ABP modules.
+2024-03-27 22:02:40.307 +05:30 [INF] Migrating Host side...
+2024-03-27 22:02:40.316 +05:30 [INF] Migrating SaasService database...
+2024-03-27 22:09:30.363 +05:30 [INF] Loaded ABP modules:
+2024-03-27 22:09:30.369 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-03-27 22:09:30.369 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-03-27 22:09:30.369 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-03-27 22:09:30.369 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-03-27 22:09:30.369 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-03-27 22:09:30.369 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-03-27 22:09:30.369 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-03-27 22:09:30.369 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-03-27 22:09:30.369 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-03-27 22:09:30.369 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-03-27 22:09:30.369 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-03-27 22:09:30.369 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-03-27 22:09:30.369 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-03-27 22:09:30.369 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-03-27 22:09:30.369 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-03-27 22:09:30.369 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-03-27 22:09:30.369 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-03-27 22:09:30.369 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-03-27 22:09:30.369 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-03-27 22:09:30.369 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-03-27 22:09:30.369 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-03-27 22:09:30.370 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-03-27 22:09:30.370 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-03-27 22:09:30.370 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-03-27 22:09:30.370 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-03-27 22:09:30.370 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-03-27 22:09:30.370 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-03-27 22:09:30.370 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-03-27 22:09:30.544 +05:30 [INF] Initialized all ABP modules.
+2024-03-27 22:09:30.597 +05:30 [INF] Migrating Host side...
+2024-03-27 22:09:30.605 +05:30 [INF] Migrating SaasService database...
+2024-03-27 22:09:33.279 +05:30 [INF] Migrating AdministrationService database...
+2024-03-27 22:09:35.170 +05:30 [INF] Migrating IdentityService database...
+2024-03-27 22:09:36.796 +05:30 [INF] Migrating ProductService database...
+2024-03-27 22:09:38.110 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-03-27 22:09:39.320 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = DateTime), @p6='?', @p7='?' (DbType = Int32), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?' (DbType = Guid), @p12='?' (DbType = DateTime), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime), @p15='?', @p16='?', @p17='?', @p18='?', @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?', @p23='?' (DbType = Guid), @p24='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AbpUsers" ("Id", "ConcurrencyStamp", "CreationTime", "CreatorId", "DeleterId", "DeletionTime", "Email", "EntityVersion", "ExtraProperties", "IsActive", "LastModificationTime", "LastModifierId", "LastPasswordChangeTime", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "SecurityStamp", "ShouldChangePasswordOnNextLogin", "Surname", "TenantId", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24)
+RETURNING "AccessFailedCount", "EmailConfirmed", "IsDeleted", "IsExternal", "PhoneNumberConfirmed", "TwoFactorEnabled";
+2024-03-27 22:09:39.341 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Local to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Local to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-03-27 22:22:44.455 +05:30 [INF] Loaded ABP modules:
+2024-03-27 22:22:44.463 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-03-27 22:22:44.463 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-03-27 22:22:44.463 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-03-27 22:22:44.463 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-03-27 22:22:44.463 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-03-27 22:22:44.463 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-03-27 22:22:44.463 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-03-27 22:22:44.463 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-03-27 22:22:44.463 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-03-27 22:22:44.463 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-03-27 22:22:44.463 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-03-27 22:22:44.463 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-03-27 22:22:44.464 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-03-27 22:22:44.464 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-03-27 22:22:44.464 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-03-27 22:22:44.464 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-03-27 22:22:44.657 +05:30 [INF] Initialized all ABP modules.
+2024-03-27 22:22:44.713 +05:30 [INF] Migrating Host side...
+2024-03-27 22:22:44.723 +05:30 [INF] Migrating SaasService database...
+2024-03-27 22:22:45.824 +05:30 [INF] Migrating AdministrationService database...
+2024-03-27 22:22:46.372 +05:30 [INF] Migrating IdentityService database...
+2024-03-27 22:22:47.048 +05:30 [INF] Migrating ProductService database...
+2024-03-27 22:22:47.601 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-03-27 22:22:50.356 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.357 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.357 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.357 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.357 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.357 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.357 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-03-27 22:22:50.467 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-03-27 22:22:50.489 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-03-27 22:22:50.496 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-03-27 22:22:50.512 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-03-27 22:22:50.526 +05:30 [INF] === http://localhost:4200 ===
+2024-03-27 22:22:50.660 +05:30 [INF] Migrating tenants...
+2024-03-27 22:22:50.684 +05:30 [INF] Migration completed!
+2024-04-02 17:47:55.042 +05:30 [INF] Loaded ABP modules:
+2024-04-02 17:47:55.049 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-04-02 17:47:55.049 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-04-02 17:47:55.049 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-04-02 17:47:55.049 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-04-02 17:47:55.049 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-04-02 17:47:55.049 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-04-02 17:47:55.049 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-04-02 17:47:55.049 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-04-02 17:47:55.049 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-04-02 17:47:55.049 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-04-02 17:47:55.252 +05:30 [INF] Initialized all ABP modules.
+2024-04-02 17:47:55.302 +05:30 [INF] Migrating Host side...
+2024-04-02 17:47:55.311 +05:30 [INF] Migrating SaasService database...
+2024-04-02 17:47:57.848 +05:30 [INF] Migrating AdministrationService database...
+2024-04-02 17:47:59.475 +05:30 [INF] Migrating IdentityService database...
+2024-04-02 17:48:01.016 +05:30 [INF] Migrating ProductService database...
+2024-04-02 17:48:02.217 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-04-02 17:48:04.798 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.798 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.799 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.799 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.799 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.799 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.799 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-04-02 17:48:04.893 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-04-02 17:48:04.914 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-04-02 17:48:04.923 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-04-02 17:48:04.937 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-04-02 17:48:04.951 +05:30 [INF] === http://localhost:4200 ===
+2024-04-02 17:48:05.062 +05:30 [INF] Migrating tenants...
+2024-04-02 17:48:05.084 +05:30 [INF] Migration completed!
+2024-04-03 15:02:34.638 +05:30 [INF] Loaded ABP modules:
+2024-04-03 15:02:34.645 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-04-03 15:02:34.645 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-04-03 15:02:34.645 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-04-03 15:02:34.645 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-04-03 15:02:34.645 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-04-03 15:02:34.645 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-04-03 15:02:34.645 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-04-03 15:02:34.645 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-04-03 15:02:34.645 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-04-03 15:02:34.645 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-04-03 15:02:34.645 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-04-03 15:02:34.645 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-04-03 15:02:34.645 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-04-03 15:02:34.645 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-04-03 15:02:34.645 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-04-03 15:02:34.645 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-04-03 15:02:34.645 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-04-03 15:02:34.646 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-04-03 15:02:34.646 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-04-03 15:02:34.646 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-04-03 15:02:34.646 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-04-03 15:02:34.646 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-04-03 15:02:34.646 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-04-03 15:02:34.646 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-04-03 15:02:34.646 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-04-03 15:02:34.646 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-04-03 15:02:34.914 +05:30 [INF] Initialized all ABP modules.
+2024-04-03 15:02:35.011 +05:30 [INF] Migrating Host side...
+2024-04-03 15:02:35.025 +05:30 [INF] Migrating SaasService database...
+2024-04-03 15:02:36.606 +05:30 [INF] Migrating AdministrationService database...
+2024-04-03 15:02:37.317 +05:30 [INF] Migrating IdentityService database...
+2024-04-03 15:02:38.042 +05:30 [INF] Migrating ProductService database...
+2024-04-03 15:02:38.707 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.198 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:42.210 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-04-03 15:02:42.212 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-04-03 15:02:42.213 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-04-03 15:02:42.216 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-04-03 15:02:42.217 +05:30 [INF] === http://localhost:4200 ===
+2024-04-03 15:02:42.502 +05:30 [INF] Migrating tenants...
+2024-04-03 15:02:42.605 +05:30 [INF] Migrating tenant database: tenant-1 (3a11b55c-ea26-5c47-38ea-e7a7b350583b)
+2024-04-03 15:02:42.605 +05:30 [INF] Migrating AdministrationService database...
+2024-04-03 15:02:45.087 +05:30 [INF] Migrating IdentityService database...
+2024-04-03 15:02:45.722 +05:30 [INF] Migrating ProductService database...
+2024-04-03 15:02:46.071 +05:30 [INF] All databases have been successfully migrated (tenantId: 3a11b55c-ea26-5c47-38ea-e7a7b350583b).
+2024-04-03 15:02:46.071 +05:30 [INF] Seeding tenant data: tenant-1 (3a11b55c-ea26-5c47-38ea-e7a7b350583b)
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.640 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:46.641 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-04-03 15:02:46.642 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-04-03 15:02:46.644 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-04-03 15:02:46.645 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-04-03 15:02:46.647 +05:30 [INF] === http://localhost:4200 ===
+2024-04-03 15:02:46.696 +05:30 [INF] Migrating tenant database: tenant-2 (3a11b564-dc0d-4a00-6150-9a499dc48ec3)
+2024-04-03 15:02:46.696 +05:30 [INF] Migrating AdministrationService database...
+2024-04-03 15:02:48.477 +05:30 [INF] Migrating IdentityService database...
+2024-04-03 15:02:49.001 +05:30 [INF] Migrating ProductService database...
+2024-04-03 15:02:49.329 +05:30 [INF] All databases have been successfully migrated (tenantId: 3a11b564-dc0d-4a00-6150-9a499dc48ec3).
+2024-04-03 15:02:49.329 +05:30 [INF] Seeding tenant data: tenant-2 (3a11b564-dc0d-4a00-6150-9a499dc48ec3)
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-04-03 15:02:49.531 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-04-03 15:02:49.532 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-04-03 15:02:49.533 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-04-03 15:02:49.533 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-04-03 15:02:49.534 +05:30 [INF] === http://localhost:4200 ===
+2024-04-03 15:02:49.561 +05:30 [INF] Migration completed!
+2024-04-18 13:00:25.976 +05:30 [INF] Loaded ABP modules:
+2024-04-18 13:00:25.983 +05:30 [INF] - HolaHealth.Suite.DbMigrator.SuiteDbMigratorModule
+2024-04-18 13:00:25.983 +05:30 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-04-18 13:00:25.983 +05:30 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2024-04-18 13:00:25.983 +05:30 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2024-04-18 13:00:25.983 +05:30 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2024-04-18 13:00:25.983 +05:30 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-04-18 13:00:25.983 +05:30 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-04-18 13:00:25.983 +05:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-04-18 13:00:25.983 +05:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-04-18 13:00:25.983 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-04-18 13:00:25.983 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-04-18 13:00:25.983 +05:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-04-18 13:00:25.983 +05:30 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2024-04-18 13:00:25.983 +05:30 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2024-04-18 13:00:25.983 +05:30 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-04-18 13:00:25.983 +05:30 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-04-18 13:00:25.983 +05:30 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-04-18 13:00:25.983 +05:30 [INF]       - Volo.Abp.Json.AbpJsonModule
+2024-04-18 13:00:25.983 +05:30 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-04-18 13:00:25.983 +05:30 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-04-18 13:00:25.983 +05:30 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2024-04-18 13:00:25.983 +05:30 [INF]   - HolaHealth.Suite.Shared.Hosting.SuiteSharedHostingModule
+2024-04-18 13:00:25.983 +05:30 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-04-18 13:00:25.983 +05:30 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - HolaHealth.Suite.IdentityService.IdentityServiceDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-04-18 13:00:25.984 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-04-18 13:00:25.984 +05:30 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-04-18 13:00:25.984 +05:30 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-04-18 13:00:25.984 +05:30 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-04-18 13:00:25.984 +05:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]             - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - HolaHealth.Suite.IdentityService.IdentityServiceDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.IdentityService.IdentityServiceApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.SaasService.EntityFrameworkCore.SaasServiceEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - HolaHealth.Suite.SaasService.SaasServiceDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - HolaHealth.Suite.SaasService.SaasServiceDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Payment.AbpPaymentDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Payment.EntityFrameworkCore.AbpPaymentEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.SaasService.SaasServiceApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Saas.Tenant.SaasTenantApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Payment.AbpPaymentApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Payment.Admin.AbpPaymentAdminApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - HolaHealth.Suite.AdministrationService.AdministrationServiceDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-04-18 13:00:25.984 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.ProductService.ProductServiceApplicationContractsModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainSharedModule
+2024-04-18 13:00:25.984 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2024-04-18 13:00:25.984 +05:30 [INF]   - HolaHealth.Suite.ProductService.EntityFrameworkCore.ProductServiceEntityFrameworkCoreModule
+2024-04-18 13:00:25.984 +05:30 [INF]     - HolaHealth.Suite.ProductService.ProductServiceDomainModule
+2024-04-18 13:00:26.245 +05:30 [INF] Initialized all ABP modules.
+2024-04-18 13:00:26.331 +05:30 [INF] Migrating Host side...
+2024-04-18 13:00:26.340 +05:30 [INF] Migrating SaasService database...
+2024-04-18 13:00:27.594 +05:30 [INF] Migrating AdministrationService database...
+2024-04-18 13:00:28.164 +05:30 [INF] Migrating IdentityService database...
+2024-04-18 13:00:28.822 +05:30 [INF] Migrating ProductService database...
+2024-04-18 13:00:29.400 +05:30 [INF] All databases have been successfully migrated (HOST).
+2024-04-18 13:00:33.391 +05:30 [INF] === https://localhost:44325/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.391 +05:30 [INF] === https://localhost:44353/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.392 +05:30 [INF] === https://localhost:44322/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.392 +05:30 [INF] === https://localhost:44388/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.392 +05:30 [INF] === https://localhost:44367/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.392 +05:30 [INF] === https://localhost:44381/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.392 +05:30 [INF] === https://localhost:44361/swagger/oauth2-redirect.html ===
+2024-04-18 13:00:33.512 +05:30 [INF] === https://localhost:44321/signin-oidc ===
+2024-04-18 13:00:33.540 +05:30 [INF] === https://localhost:44307/authentication/login-callback ===
+2024-04-18 13:00:33.549 +05:30 [INF] === https://localhost:44314/signin-oidc ===
+2024-04-18 13:00:33.569 +05:30 [INF] === https://localhost:44335/signin-oidc ===
+2024-04-18 13:00:33.589 +05:30 [INF] === http://localhost:4200 ===
+2024-04-18 13:00:33.735 +05:30 [INF] Migrating tenants...
+2024-04-18 13:00:33.759 +05:30 [INF] Migration completed!

@@ -1,0 +1,13 @@
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\bin\Debug\net8.0\HolaHealth.Suite.Shared.Localization.deps.json
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\bin\Debug\net8.0\HolaHealth.Suite.Shared.Localization.dll
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\bin\Debug\net8.0\HolaHealth.Suite.Shared.Localization.pdb
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.csproj.AssemblyReference.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.EmbeddedFilesManifest.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.AssemblyInfoInputs.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.AssemblyInfo.cs
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.csproj.CoreCompileInputs.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.dll
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\refint\HolaHealth.Suite.Shared.Localization.dll
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\HolaHealth.Suite.Shared.Localization.pdb
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Localization\obj\Debug\net8.0\ref\HolaHealth.Suite.Shared.Localization.dll

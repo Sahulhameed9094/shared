@@ -1,0 +1,12 @@
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\bin\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.deps.json
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\bin\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.dll
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\bin\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.pdb
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.csproj.AssemblyReference.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.AssemblyInfoInputs.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.AssemblyInfo.cs
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.csproj.CoreCompileInputs.cache
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.dll
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\refint\HolaHealth.Suite.Shared.Hosting.dll
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\HolaHealth.Suite.Shared.Hosting.pdb
+D:\Microservice\latest  03262024\HolaHealth.Suite\shared\HolaHealth.Suite.Shared.Hosting\obj\Debug\net8.0\ref\HolaHealth.Suite.Shared.Hosting.dll
